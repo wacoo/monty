@@ -10,20 +10,9 @@
 
 int main(int c, char **v)
 {
-	int fd;
-	char buf[15];
+	char *fn;
 
-	fd = open(v[1], O_RDONLY);
-	if (fd == -1)
-	{
-		fprintf(stderr, "Error: Can't open file %s\n", v[1]);
-		exit(EXIT_FAILURE);
-	}
-
-	read(fd, buf, 13);
-
-	close(fd);
-
+	fn = read_file(v[1]);
 	if (c != 2)
 	{
 		printf("USAGE: monty file\n");
