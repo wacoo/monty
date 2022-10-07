@@ -1,5 +1,4 @@
-## ALX Simple Shell Project
+## Stack, Queue, LIFO and FIFO
 ## Authors
-- **Peter Keroti** - [Keroti github](https://github.com/keroti)
-- **Binyame Gebreegziabher** - [Binyame github](https://github.com/BINYZMAN)
-#Stack, Queue, LIFO and FIFO
+- **Wondmagegn Abriham Chosha** - [Wondmagegn github](https://github.com/wacoo)
+- **Binyame Yohannes** - [Binyame github](https://github.com/BINYZMAN)
